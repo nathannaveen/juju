@@ -47,7 +47,7 @@ jobs:
     - name: Checking out repo
       uses: actions/checkout@v2
 
-    - uses: balchua/microk8s-actions@v0.2.2
+    - uses: balchua/microk8s-actions@v0.3.0
       with:
         channel: '${{ matrix.microk8s }}'
         # enable now to give microk8s more time to settle down.
